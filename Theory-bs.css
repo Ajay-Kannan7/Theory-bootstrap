@@ -1,0 +1,170 @@
+@font-face{
+    font-family:theory;
+    src:url(fonts/SourceSans3-Regular.otf);
+}
+/*Wrapper division designing starts*/
+.wrapper{
+    width:100%;
+    height:80%;
+    background-image:url(theory-bt-img/dd.jpg);
+    background-attachment:fixed;
+    color:white;
+}
+.wrapper .custom-nav{
+    margin-top:50px;
+    background:none;
+    border:none;
+    color:white;
+}
+.wrapper .container ul a, .wrapper .custom-nav .navbar-brand{
+    color:white;
+}
+.wrapper .banner{
+    text-align:center;
+    margin-top:90px;
+}
+.wrapper .banner h1{
+    font-size:50px;
+    font-weight:100;
+}
+.wrapper .banner p{
+    margin-top:30px;
+}
+.wrapper .container .custom-nav .navbar-collapse ul li{
+    float:left;
+    margin-right:9px;
+}
+/*Wrapper division designing ends*/
+/*Collection division designing starts*/
+.collection .cards{
+    padding:25px 30px;
+    margin:50px 0px;
+    text-align:center;
+}
+.collection .border{
+    border-left:1px solid #5385c1;
+    border-right:1px solid #5385c1;
+}
+.collection .cards h3{
+    color:#5385c1;
+    font-size:25px;
+}
+.collection .cards button{
+    border-radius:0;
+}
+/*Media query for collection division starts*/
+@media only screen and (max-width:1200px){
+    .collection .border{
+        border:none;
+    }
+}
+/*Media query for collection division ends*/
+/*Collection division designing ends*/
+/*Member-wrapper division designing starts*/
+.member-wrapper{
+    width:100%;
+    background-color:#5385c1;
+    text-align:center;
+    color:white;
+    padding:50px 0px;
+}
+.member-wrapper .members .header{
+    margin-bottom:50px;
+}
+.member-wrapper .members .header h2{
+    font-weight:lighter;
+    font-size:50px;
+    margin-bottom:30px;
+}
+.member-wrapper .members .mem-cards{
+    width:20%;
+    border:0.1px solid white;
+    padding:30px 10px;
+}
+.member-wrapper .members .margin1{
+    margin:0px 50px 0px 57px;
+}
+.member-wrapper .members .margin2{
+    margin-right:60px;
+    margin-left:10px
+}
+.member-wrapper .members .mem-cards img{
+    width:100%;
+}
+/*Media query for member-wrapper division begins*/
+@media only screen and (max-width:1200px){
+    .member-wrapper .members .mem-cards{
+        width:40%;
+        margin:0 auto;
+        margin-bottom:20px;
+    }
+}
+/*Media query for member-wrapper division ends*/
+/*Member-wrapper division designing ends*/
+/*Photography division designing starts*/
+.photography{
+    text-align:center;
+    padding:50px 0px;
+}
+.photography .header h2{
+    font-size:40px;
+    font-weight:lighter;
+    color:#5385c1;
+    margin-bottom:25px;
+}
+.photography .cards{
+    width:50%;
+    margin-top:25px;
+}
+.photography .cards img{
+    width:100%;
+}
+.photography .cards h3{
+    color:#5385c1;
+}
+.photography .cards button{
+    border-radius:0;
+}
+hr{
+    width:90%;
+    border:0.5px solid rgb(177, 174, 174);
+    margin-top:50px;
+}
+/*Media query for Photography division starts*/
+@media only screen and (max-width:1200px){
+    .photography .cards{
+        width:65%;
+        margin:0 auto;
+        margin-bottom:20px;
+        margin-top:40px;
+    }
+}
+/*Media query for Photography division ends*/
+/*Photography division designing ends*/
+/*Footer division designing starts*/
+.footer .icons{
+    float:right;
+    position:relative;
+    bottom:30px;
+    right:30px;
+}
+.footer .icons .fa{
+    margin-right:10px;
+    font-size:15px;
+    text-decoration:none;
+}
+/*Media query for footer division starts*/
+@media only screen and (max-width:1200px){
+    .footer{
+        text-align:center;
+    }
+    .footer .icons{
+        position:none;
+        float:none;
+        bottom:0;
+        right:0;
+        margin-bottom:30px;
+    }
+}
+/*Media query for footer division ends*/
+/*Footer division desgining ends*/
